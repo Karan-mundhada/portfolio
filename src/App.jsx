@@ -7,14 +7,14 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
       <Contact />
-    </div>
+    </>
   );
 }
 
